@@ -2,13 +2,13 @@ from pynput import keyboard
 import main
 
 hotkeys = {
-    # DECREASE BAD KEYS
+    # DECREASE LOSING KEYS
     'q': ['b2', True],
-    # INCREASE BAD KEYS
+    # INCREASE LOSING KEYS
     'w': ['b2', False],
-    # DECREASE GOOD KEYS
+    # DECREASE WINNING KEYS
     'e': ['a2', True],
-    # INCREASE GOOD KEYS
+    # INCREASE WINNING KEYS
     'r': ['a2', False]
 }
 
